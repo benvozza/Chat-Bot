@@ -4,7 +4,8 @@
   "description": "bot test ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/benvozza/bottest#readme",
   "dependencies": {
-    "body-parser": "^1.17.2"
+    "body-parser": "^1.17.2",
+    "express": "4.15.3",
+    "foobar": "^1.1.0",
+    "request": "^2.81.0"
   }
 }
