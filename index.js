@@ -2,6 +2,7 @@ var express = require('express')
 var bodyParser = require('body-parser')
 var request = require('request')
 var app = express()
+var token = "EAAGRKZAUAZClABALZClF5UZCDvdZBIZBOBtjnelJBbjAqA1ctV0NhhNWXZA0URbdZBeVZCfeN0XxRgDIQOsfoffYZBgs2RWZCkMUX3Qm3oDRSvHdcTeJetteopomrY4eyG4rW5fIX8JtXL6plCZBgE9sMfTYAoYfZCaa4R4ianWHP0hKLUwZDZD"
 
 app.set('port', (process.env.PORT || 5000))
 
@@ -53,8 +54,6 @@ app.post('/webhook/', function (req, res) {
     }
     res.sendStatus(200)
 })
-
-var token = "EAAGRKZAUAZClABALZClF5UZCDvdZBIZBOBtjnelJBbjAqA1ctV0NhhNWXZA0URbdZBeVZCfeN0XxRgDIQOsfoffYZBgs2RWZCkMUX3Qm3oDRSvHdcTeJetteopomrY4eyG4rW5fIX8JtXL6plCZBgE9sMfTYAoYfZCaa4R4ianWHP0hKLUwZDZD"
 
 // function to echo back messages - added by Stefan
 
