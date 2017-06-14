@@ -44,7 +44,8 @@ app.post('/webhook/', function (req, res) {
                 continue
             }
             if (text === 'hello'){
-              sendTextMessage(sender, "sam is a retard")
+                sendTextMessage(sender, "sam is a retard")
+                continue
             }
             sendTextMessage(sender, "parrot: " + text.substring(0, 200))
         }
